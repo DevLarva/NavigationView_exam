@@ -13,21 +13,23 @@ struct ContentView: View {
         
         NavigationStack {
             List(animals){ animal in
-                AnimalListView(animal: animal)
-
+                NavigationLink(destination: AnimalDetailView(animal: animal)){
+                    AnimalListView(animal: animal)
+                }
+                
+                .navigationBarTitle("Animals")
             }
             
-            .navigationBarTitle("Animals")
+            .navigationViewStyle(.stack)
         }
-        
-        .navigationViewStyle(.stack)
     }
+    
 }
-
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}

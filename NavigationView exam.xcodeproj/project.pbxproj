@@ -14,6 +14,7 @@
 		AC6D65F92976EAA000C60A16 /* AnimalMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65F82976EAA000C60A16 /* AnimalMainView.swift */; };
 		AC6D65FB2976ED4A00C60A16 /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65FA2976ED4A00C60A16 /* AnimalData.swift */; };
 		AC6D65FD2976EE5D00C60A16 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65FC2976EE5D00C60A16 /* AnimalListView.swift */; };
+		AC6D65FF2976F27800C60A16 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65FE2976F27800C60A16 /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AC6D65F82976EAA000C60A16 /* AnimalMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMainView.swift; sourceTree = "<group>"; };
 		AC6D65FA2976ED4A00C60A16 /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
 		AC6D65FC2976EE5D00C60A16 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		AC6D65FE2976F27800C60A16 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				AC6D65EA2976EA6400C60A16 /* NavigationView_examApp.swift */,
 				AC6D65EC2976EA6400C60A16 /* ContentView.swift */,
+				AC6D65FE2976F27800C60A16 /* AnimalDetailView.swift */,
 				AC6D65FC2976EE5D00C60A16 /* AnimalListView.swift */,
 				AC6D65FA2976ED4A00C60A16 /* AnimalData.swift */,
 				AC6D65F82976EAA000C60A16 /* AnimalMainView.swift */,
@@ -151,6 +154,7 @@
 				AC6D65F92976EAA000C60A16 /* AnimalMainView.swift in Sources */,
 				AC6D65EB2976EA6400C60A16 /* NavigationView_examApp.swift in Sources */,
 				AC6D65FB2976ED4A00C60A16 /* AnimalData.swift in Sources */,
+				AC6D65FF2976F27800C60A16 /* AnimalDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
