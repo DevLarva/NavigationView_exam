@@ -15,6 +15,8 @@
 		AC6D65FB2976ED4A00C60A16 /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65FA2976ED4A00C60A16 /* AnimalData.swift */; };
 		AC6D65FD2976EE5D00C60A16 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65FC2976EE5D00C60A16 /* AnimalListView.swift */; };
 		AC6D65FF2976F27800C60A16 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D65FE2976F27800C60A16 /* AnimalDetailView.swift */; };
+		ACAA09C629794BE700769E58 /* AnimalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA09C529794BE700769E58 /* AnimalTabView.swift */; };
+		ACAA09C829794C0600769E58 /* AnimalLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA09C729794C0600769E58 /* AnimalLikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		AC6D65FA2976ED4A00C60A16 /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
 		AC6D65FC2976EE5D00C60A16 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 		AC6D65FE2976F27800C60A16 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		ACAA09C529794BE700769E58 /* AnimalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTabView.swift; sourceTree = "<group>"; };
+		ACAA09C729794C0600769E58 /* AnimalLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				AC6D65EA2976EA6400C60A16 /* NavigationView_examApp.swift */,
 				AC6D65EC2976EA6400C60A16 /* ContentView.swift */,
+				ACAA09C729794C0600769E58 /* AnimalLikeView.swift */,
+				ACAA09C529794BE700769E58 /* AnimalTabView.swift */,
 				AC6D65FE2976F27800C60A16 /* AnimalDetailView.swift */,
 				AC6D65FC2976EE5D00C60A16 /* AnimalListView.swift */,
 				AC6D65FA2976ED4A00C60A16 /* AnimalData.swift */,
@@ -149,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAA09C629794BE700769E58 /* AnimalTabView.swift in Sources */,
+				ACAA09C829794C0600769E58 /* AnimalLikeView.swift in Sources */,
 				AC6D65FD2976EE5D00C60A16 /* AnimalListView.swift in Sources */,
 				AC6D65ED2976EA6400C60A16 /* ContentView.swift in Sources */,
 				AC6D65F92976EAA000C60A16 /* AnimalMainView.swift in Sources */,
