@@ -10,7 +10,7 @@ import SwiftUI
 struct AnimalTabView: View {
     var body: some View {
         TabView{
-                    AnimalMainView()
+                    ContentView()
                         .tabItem {
                             Image(systemName: "house.fill")
                             Text("Main")
