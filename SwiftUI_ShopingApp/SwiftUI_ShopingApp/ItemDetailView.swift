@@ -1,40 +1,42 @@
 //
-//  AnimalDetailView.swift
-//  NavigationView exam
+//  ItemDetailView.swift
+//  SwiftUI_ShopingApp
 //
-//  Created by 백대홍 on 2023/01/18.
+//  Created by 백대홍 on 2023/01/24.
 //
+
+
 import SwiftUI
 
-struct AnimalDetailView: View {
-
-    var animal: Animal
-
+struct ItemDetailView: View {
+    
+    var Item: Item
+    
     var body: some View {
         ScrollView(showsIndicators: false){
             VStack(spacing:20){
-                Image(animal.image)
-
+                Image(Item.image)
+                
                 VStack(alignment:.leading, spacing:20){
                     HStack{
-                        Text(animal.title)
+                        Text(Item.title)
                             .font(.largeTitle)
                             .fontWeight(.heavy)
-
+                        
                         Spacer()
-
+                        
                         Button(action: {
                         }, label: {
-                            Image(systemName: animal.isLike ? "heart.fill" : "heart")
+                            Image(systemName: Item.isLike ? "heart.fill" : "heart")
                         })
                     }
-                    Text(animal.headline)
+                    Text(Item.price)
                         .font(.headline)
-
-                    Text("Learn more about \(animal.title)".uppercased())
+                    
+                    Text("Learn more about \(Item.title)".uppercased())
                         .fontWeight(.bold)
-
-                    Text(animal.description)
+                    
+                    Text(Item.color)
 
                 }
                 .padding(.horizontal, 20)

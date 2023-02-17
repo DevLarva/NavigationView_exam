@@ -1,29 +1,31 @@
 //
-//  AnimalListView.swift
-//  NavigationView exam
+//  ItemListView.swift
+//  SwiftUI_ShopingApp
 //
-//  Created by 백대홍 on 2023/01/17.
+//  Created by 백대홍 on 2023/01/24.
 //
+
+
 import SwiftUI
 
 
-struct AnimalListView: View {
-    var animal: Animal
-
+struct ItemListView: View {
+    
+    var Item: Item
+    
     var body: some View {
-
         HStack{
-            Image(animal.image)
+            Image(Item.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width:80, height: 80)
                 .cornerRadius(8)
             VStack(alignment: .leading, spacing: 5) {
-                Text(animal.title)
+                Text(Item.title)
                     .font(.title2)
                     .fontWeight(.bold)
-
-                Text(animal.headline)
+                
+                Text(Item.price)
                     .font(.caption)
                     .foregroundColor(Color.secondary)
                     .lineLimit(2)
@@ -32,4 +34,3 @@ struct AnimalListView: View {
         .padding(.vertical, 4)
     }
 }
-

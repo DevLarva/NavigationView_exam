@@ -6,30 +6,25 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var animals : [Animal] = animalsData
-    var body: some View {
+       
+       var body: some View {
+           NavigationView{
+                       List(animals){ animal in
+                           NavigationLink(destination: AnimalDetailView(animal: animal)){
+                               AnimalListView(animal: animal)
+                           }
+               }
+               .navigationBarTitle("Animals")
+           }
+       }
+   }
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
         
-        NavigationStack {
-            List(animals){ animal in
-                NavigationLink(destination: AnimalDetailView(animal: animal)){
-                    AnimalListView(animal: animal)
-                }
-                
-                .navigationBarTitle("Animals")
-            }
-            
-            .navigationViewStyle(.stack)
-        }
     }
-    
 }
-    
-    
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
-    }
